@@ -1,0 +1,194 @@
+
+@media only screen and (max-width:700px){
+    nav a{
+        font-size: 1rem;
+    }
+    nav{
+        background-color: transparent   ;
+        height: 7vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .homepage {
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+      }
+      .container{
+        margin-top: 5%;
+        height: 80vh;
+        width: 80%;
+       /* background-color: #0466c8;*/
+        border-radius: 39px;
+        box-shadow:  24px 24px 59px #637374,
+                     -6px -px 80px #c1dfe2;
+                     background-color: #0466c8;
+    border-radius: 39px;
+    box-shadow:  24px 24px 59px #637374,
+                 -6px -px 80px #c1dfe2;
+        display: flex;
+        flex-direction: column-reverse;             
+    }
+    .box1{
+        height: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .box1 h1{
+        font-size: 1.6rem;
+    }
+    .box1 h2{
+        font-size: 0.8rem;
+    }
+    .box1 a{
+        font-size: 0.8rem;
+    }
+    .text-box{
+        padding:15px ;
+        height: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .box2{
+        height: 40%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .boxa{
+   
+        height: 125px;
+        width: 125px;
+    }
+
+    .service-box{
+        color: rgb(255, 255, 255);
+        height: 90%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .service-box h2{
+        font-size:1rem ;
+    
+    }
+    .service-box li{
+        font-size:0.8rem ;
+    }
+    #about{
+        background-color:#588157;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutpage{
+        margin-top: 5%;
+        height: 80vh;
+        width: 80%;
+        background-color: #588157;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 39px;
+        box-shadow:  24px 24px 80px #00000027,
+                     -6px -6px 80px #292929;
+    
+    }
+    .intro{
+        padding: 5px;
+        height: 40%;
+        width: 100%;
+    }
+    .intro a{
+        text-decoration:none ;
+        color: white;
+    }
+    .intro a:hover{
+        color: rgb(20, 161, 255);
+    }
+    .intro h2{
+        font-size: 0.8rem;
+        color: white;
+    }
+    .intro .info p{
+        font-size: 0.4rem;
+    }
+    .info p i{
+        transition: all 0.3s;
+    }
+    .info p i:hover{
+        color: rgb(62, 197, 255);
+        cursor: pointer;
+    }
+    .hobbies{
+        padding: 5px;
+        height: 50%;
+        width: 100%;
+    }
+    .hobbies h2{
+        font-size: 1rem;
+        cursor: pointer;
+        color: white;
+    }
+    .hobbies h4{
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        font-size: 0.8rem;
+        font-weight: 300;
+
+    }
+    .hobbies p{
+        font-size: 0.6rem;
+    }
+    .fa-instagram, .fa-github, .fa-upwork, .fa-spotify {
+        color: rgb(255, 255, 255);
+        font-size: 2.5rem;
+    }
+    
+    }/*
+    .boxa{  
+        height: 125px;
+        width: 125px;
+       
+        
+    } */
+    .boxa img{
+        height: 100%;
+        width: 100%;
+    }
+    .photos img{
+        height: 60%;
+    }
+    .videography{
+        display: flex;
+        flex-direction: column;
+    }
+    .videography video{
+        height: 180px;
+        width: 270px;
+    }
+ @media only screen and (max-width: 1300px) {
+    .intro .info p{
+        font-size: 0.8rem;
+    }
+    .hobbies p{
+        
+        font-size: 0.8rem;
+    }
+ }
